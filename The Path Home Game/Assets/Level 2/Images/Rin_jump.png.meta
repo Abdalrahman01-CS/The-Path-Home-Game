@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: b5c84da7942b3f34abffb3fe6da4af3d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rin_jump_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 342
+        width: 236
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df82e0743f7b174478671da74a126115
+      internalID: 604814533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rin_jump_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 325
+        width: 215
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba1260ec2b54843843762cede1e84a
+      internalID: -378747684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rin_jump_3
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 336
+        width: 201
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7898eda2d0ceeb4ea01e5929d4b9c23
+      internalID: 280960943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rin_jump_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 324
+        width: 227
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57de4469318c5684e87e474323d99c75
+      internalID: 1914921174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rin_jump_40: 816611710
+      Rin_jump_21: 1594335665
+      Rin_jump_29: 1705177135
+      Rin_jump_4: 1914921174
+      Rin_jump_30: -1513148113
+      Rin_jump_5: 1844489236
+      Rin_jump_28: 534958214
+      Rin_jump_20: 1831502662
+      Rin_jump_34: 2099784465
+      Rin_jump_18: -789666066
+      Rin_jump_36: -619039285
+      Rin_jump_32: -179018838
+      Rin_jump_39: -302409226
+      Rin_jump_42: 582507880
+      Rin_jump_23: 585612032
+      Rin_jump_44: 897053328
+      Rin_jump_33: 650212881
+      Rin_jump_3: 280960943
+      Rin_jump_25: 1757548792
+      Rin_jump_37: 728447215
+      Rin_jump_2: 604814533
+      Rin_jump_1: -378747684
+      Rin_jump_8: 1059809936
+      Rin_jump_15: 727566301
+      Rin_jump_7: 32610064
+      Rin_jump_41: 757958361
+      Rin_jump_12: 1685354824
+      Rin_jump_13: -905832288
+      Rin_jump_9: 2033034030
+      Rin_jump_38: -1842032890
+      Rin_jump_43: -629788323
+      Rin_jump_31: -1113552194
+      Rin_jump_14: 1481138139
+      Rin_jump_45: -2140505344
+      Rin_jump_0: -1952049279
+      Rin_jump_10: 1124194051
+      Rin_jump_26: 844681519
+      Rin_jump_22: -1267939049
+      Rin_jump_35: 187717779
+      Rin_jump_6: -1684203650
+      Rin_jump_24: -1620599011
+      Rin_jump_27: -922056452
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
