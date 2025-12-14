@@ -13,6 +13,7 @@ public class SirajController : MonoBehaviour
 
     private Animator anim;
 
+    // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -20,6 +21,7 @@ public class SirajController : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+    // Update is called once per frame
     void Update()
     {
         Vector2 targetPos = (Vector2)Rin.position + offset;
