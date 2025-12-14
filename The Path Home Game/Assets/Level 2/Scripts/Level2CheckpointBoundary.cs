@@ -5,6 +5,7 @@ using UnityEngine;
 public class Level2CheckpointBoundary : MonoBehaviour
 {
     public UnstableWoodenPlank woodenPlank;
+    public StoneBreak stoneBreak;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class Level2CheckpointBoundary : MonoBehaviour
         {
             FindObjectOfType<Level2Manager>().RespawnPlayer();
             woodenPlank.ResetPosition();
+            stoneBreak.ResetStone();
         }
     }
 }

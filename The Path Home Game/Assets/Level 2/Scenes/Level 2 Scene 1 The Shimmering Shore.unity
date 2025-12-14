@@ -1090,7 +1090,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1313492680}
   - component: {fileID: 1313492679}
-  m_Layer: 0
+  - component: {fileID: 1313492681}
+  - component: {fileID: 1313492682}
+  m_Layer: 3
   m_Name: Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1164,6 +1166,61 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1313492681
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313492678}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 2bfebdffacdd37d4e95f2fad28c66b85, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.8, y: 0.7}
+    newSize: {x: 1.8, y: 0.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.62, y: -0.02}
+      - {x: 0.59, y: -0.02}
+      - {x: 0.5, y: 0.19}
+      - {x: 0.34, y: 0.26999998}
+      - {x: 0.08, y: 0.35}
+      - {x: -0.12, y: 0.35}
+      - {x: -0.17999999, y: 0.32}
+      - {x: -0.42999998, y: 0.19999999}
+      - {x: -0.85999995, y: -0.04}
+      - {x: -0.9, y: -0.08}
+      - {x: -0.9, y: -0.34}
+      - {x: -0.89, y: -0.35}
+      - {x: 0.89, y: -0.35}
+      - {x: 0.9, y: -0.34}
+      - {x: 0.9, y: -0.28}
+      - {x: 0.82, y: -0.089999996}
+--- !u!114 &1313492682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313492678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28b7d519a895bf0489e74f0c72f34072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explodedStone: {fileID: 419224113, guid: 07eeed04f08919b4b95ff20bbdab1051, type: 3}
+  delay: 1.2
 --- !u!1001 &1391628535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2243,6 +2300,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6200771429399015273, guid: cec37eea9deb9244f9910ea019ef511a, type: 3}
+      propertyPath: stoneBreak
+      value: 
+      objectReference: {fileID: 1313492682}
     - target: {fileID: 6200771429399015273, guid: cec37eea9deb9244f9910ea019ef511a, type: 3}
       propertyPath: woodenPlank
       value: 
