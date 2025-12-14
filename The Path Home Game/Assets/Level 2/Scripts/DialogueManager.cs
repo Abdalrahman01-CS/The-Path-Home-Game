@@ -20,7 +20,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         dialoguePanel.SetActive(true);
-        NextButton.SetActive(true);
+        NextButton.SetActive(false);
     }
 
     // Update is called once per frame
